@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-width: 400px;
+}
+
+.nav-top {
+  background-image: linear-gradient(to left, #ff8001, #c20601, #c54023);
+}
+
+.logo {
+  display: inline-block;
+  background-image: url(./logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 64px;
+}
+
+.sign-in-up {
+  float: right;
+  line-height: 64px;
+  margin-right: 1.2rem;
+  font-weight: 900;
+  color: white;
+}
+
+.sign-in-up a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background-color: #ffaa53;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 1rem 0.5rem;
+}
+
+.navbar ul {
+  text-align: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.main p {
+  text-align: justify;
+}
+
+.main p::first-line {
+  color: #c54023;
+  font-weight: 400;
+}
+
+.main p::first-letter {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: white;
+  border: 10px solid #ff0000;
+  border-radius: 50%;
+  background-color: #ff0000;
+}
+
+.fixed:hover {
+  color: black;
+}
